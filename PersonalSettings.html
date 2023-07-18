@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="less1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5</title>
+</head>
+<body>
+    <header>
+        <img src="8606957_l.jpg" alt="" id="logo">
+    </header>
+    <nav>
+        <h3>navigation manu</h3>
+        <a href="datails.html">Student details</a> <br>
+        <a href="American questionnaire.html">American questionnaire</a> <br>
+        <a href="PersonalSettings.html">Personal settings page </a>
+    </nav>
+    <article>
+        <p>background color:</p>
+        <input type="color" name="background color"  id="background-color">
+        <input type="radio" name="background color" onchange="session(name)">Temporary
+        <input type="radio" name="background color" onchange="session(name)">Default
+        <p>font color:</p>
+        <input type="color" name="font-color" id="font-color" placeholder="choose font color">
+        <input type="radio" name="font-color" onchange="session(name)"> Temporary
+        <input type="radio" name="font-color" onchange="local(name)"> Default<br>
+        <p>font family:</p>
+        <select name="font-type" id="font-type">
+           <option value="fantasy">fantasy</option>
+           <option value="monospace">monospace</option>
+           <option value="cursive">cursive</option>
+        </select>
+        <input type="radio" name="font-type" onchange="session(name)"> Temporary
+        <input type="radio" name="font-type" onchange="local(name)"> Default<br>
+        <p> font size:</p>
+        <select id="font-size" name="font-size" id="font-size">
+            <option value="xx-small">xx-small</option>
+            <option value="x-small">x-small</option>
+            <option value="smaller">smaller</option>
+            <option value="small">small</option>
+            <option value="medium">medium</option>
+            <option value="large">large</option>
+            <option value="larger">larger</option>
+            <option value="x-large">x-large</option>
+            <option value="xx-large">xx-large</option>
+        </select>
+        <input type="radio" name="font-size" onchange="session(name)"> Temporary
+        <input type="radio" name="font-size" onchange="local(name)"> Default <br><br>
+        <input type="submit" value="submit" name="submit" id="sub" onclick="ChangeDesign()">
+    </article>
+    <footer>
+        ©.All rights reserved m.b good learning LTD
+    </footer>
+    <script src="PersonalSettings.js"></script>
+</body>
+
+</html>
